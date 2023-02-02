@@ -80,6 +80,18 @@ h1 {
   cursor: pointer;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #FFC8FB99;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #FFC8FB99;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #FFC8FB99;
+}
 /* .search button {
   padding: 20px 40px;
   border-radius: 0.5rem;
